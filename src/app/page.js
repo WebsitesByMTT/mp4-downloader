@@ -11,13 +11,13 @@ export default function Home() {
             <br /> Convert YouTube to MP4 instantly
           </h1>
           <div id="mouse-scroll" className={styles.mouse}>
-            <div class="mouse">
-              <div class="mouse-in"></div>
+            <div className="mouse">
+              <div className="mouse-in"></div>
             </div>
             <div>
-              <span class="down-arrow-1"></span>
-              <span class="down-arrow-2"></span>
-              <span class="down-arrow-3"></span>
+              <span className="down-arrow-1"></span>
+              <span className="down-arrow-2"></span>
+              <span className="down-arrow-3"></span>
             </div>
           </div>
         </div>
