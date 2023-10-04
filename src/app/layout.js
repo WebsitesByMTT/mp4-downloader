@@ -13,11 +13,12 @@ export const metadata = {
     title: "YouTube to MP4 Downloader: Convert YouTube to MP4 instantly  ",
     description:
       "YouTube to MP4 Downloader makes it easy to watch videos offline. Now download YouTube video for free using this video converter online tool.",
-    url: "https://www.youtubeparty.com/mp-4-downloader",
+    url: "https://www.youtubetomp4downloader.com/",
     type: "website",
-    image: "https://www.youtubeparty.com/main-logo.svg",
+    image: "https://www.youtubetomp4downloader.com/main-logo.svg",
   },
-  metadataBase: new URL("https://mp4-downloader.vercel.app/"),
+
+  metadataBase: new URL("https://www.youtubetomp4downloader.com/"),
   alternates: {
     canonical: "/",
     languages: {

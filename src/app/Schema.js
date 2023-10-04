@@ -13,7 +13,7 @@ const Schema = () => {
               "@type": "Article",
               mainEntityOfPage: {
                 "@type": "WebPage",
-                "@id": "https://mp4-downloader.vercel.app/",
+                "@id": "https://www.youtubetomp4downloader.com/",
               },
               headline: "YouTube to MP4 Downloader",
               description:
@@ -22,14 +22,14 @@ const Schema = () => {
               author: {
                 "@type": "Organization",
                 name: "mp4-downloader",
-                url: "https://mp4-downloader.vercel.app/",
+                url: "https://www.youtubetomp4downloader.com/",
               },
               publisher: {
                 "@type": "Organization",
                 name: "mp4-downloader",
                 logo: {
                   "@type": "ImageObject",
-                  url: "https://mp4-downloader.vercel.app/",
+                  url: "https://www.youtubetomp4downloader.com/",
                 },
               },
               datePublished: "",
