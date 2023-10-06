@@ -1,3 +1,4 @@
+import Image from "next/image";
 import styles from "./page.module.scss";
 
 export default function Home() {
@@ -5,10 +6,18 @@ export default function Home() {
     <main className={styles[`mp4-downloader`]}>
       <div className={styles.hero}>
         <div className={styles.container}>
-          <h1>
-            <span>YouTube to MP4 Downloader</span>
-            <br /> Convert YouTube to MP4 instantly
-          </h1>
+          <h1>YouTube to MP4 Downloader</h1>
+          <h2>Convert YouTube to MP4 instantly</h2>
+
+          <div className={styles[`image-container`]}>
+            <Image
+              src={`/button.png`}
+              fill
+              className={styles.image}
+              alt="YouTube to MP4 Downloader"
+            />
+          </div>
+
           <div id="mouse-scroll" className={styles.mouse}>
             <div className="mouse">
               <div className="mouse-in"></div>
@@ -25,7 +34,7 @@ export default function Home() {
       <div className={styles.container}>
         <div className={styles.content}>
           <div className={styles.para}>
-            <h2>Introduction</h2>
+            <h3>Introduction</h3>
             <p>
               Mp4 Downloader provides convenience for you to easily get any of
               your favourite YouTube videos downloaded into MP4 format. This
@@ -40,7 +49,7 @@ export default function Home() {
           </div>
 
           <div className={styles.para}>
-            <h2>Youtube</h2>
+            <h3>Youtube</h3>
             <p>
               It is people’s go-to entertainment platform that serves everyone
               regardless of age or gender. Satisfying the needs of kids and
@@ -54,7 +63,7 @@ export default function Home() {
             </p>
           </div>
           <div className={styles.para}>
-            <h2>How to Convert and Download YouTube Videos</h2>
+            <h3>How to Convert and Download YouTube Videos</h3>
             <ul>
               <li>
                 Open YouTube and find the video you want to download. Copy the
@@ -78,7 +87,7 @@ export default function Home() {
             </ul>
           </div>
           <div className={styles.para}>
-            <h2>Key Features</h2>
+            <h3>Key Features</h3>
             <ul>
               <li>
                 YouTube Converter mp4 supports browser conversions from any
@@ -102,7 +111,7 @@ export default function Home() {
             </ul>
           </div>
           <div className={styles.para}>
-            <h2>Additional features offered by Online video converter</h2>
+            <h3>Additional features offered by Online video converter</h3>
             <p>
               Some free YouTube downloader also performs multiple functions.
               YouTube video converter like Online Video Converter also offers:
@@ -136,7 +145,7 @@ export default function Home() {
             </ul>
           </div>
           <div className={styles.para}>
-            <h2>Conclusion</h2>
+            <h3>Conclusion</h3>
             <p>
               Now you can easily get all of your videos and YouTube playlists
               converted and downloaded in mp4 formats to watch on your device at
