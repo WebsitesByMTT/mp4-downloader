@@ -31,6 +31,10 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <head>
         <link rel="icon" type="image/x-icon" href="/logo.png" />
+        <meta
+          name="google-site-verification"
+          content="hd_h7zrXSFeGJYEQyBzxNsCaSkzbM3gB1iPuT_Acdys"
+        />
       </head>
       <body className={inter.className}>
         <Schema /> {children}
