@@ -44,7 +44,7 @@ export default function Home() {
               speed and gives a high-quality output for your downloads. This mp4
               converter gives you the option with a lot of resolutions and sizes
               to choose from for converting and downloading content. Some of the
-              ranges include 4K, HD quality, 1080p, 720p, 480p, and 320p
+              ranges include 4K, HD quality, 1080p, 720p, 480p, and 320p .
             </p>
           </div>
 
