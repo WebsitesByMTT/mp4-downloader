@@ -15,7 +15,7 @@ export const metadata = {
       "YouTube to MP4 Downloader makes it easy to watch videos offline. Now download YouTube video for free using this video converter online tool.",
     url: "https://www.youtubetomp4downloader.com/",
     type: "website",
-    image: "https://www.youtubetomp4downloader.com/logo.png",
+    image: "https://www.youtubetomp4downloader.com/logo.svg",
   },
 
   metadataBase: new URL("https://www.youtubetomp4downloader.com/"),
@@ -30,7 +30,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
-        <link rel="icon" type="image/x-icon" href="/logo.png" />
+        <link rel="icon" type="image/x-icon" href="/logo.svg" />
         <meta
           name="google-site-verification"
           content="hd_h7zrXSFeGJYEQyBzxNsCaSkzbM3gB1iPuT_Acdys"
